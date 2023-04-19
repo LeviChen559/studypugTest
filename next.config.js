@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const isProduction = process.env.NODE_ENV === "production";
 const nextConfig = {
-  output: "standalone",
+  // output: "standalone",
   // basePath:"/next_sp",
   // distDir: 'build',
   trailingSlash: true,
@@ -67,7 +67,7 @@ const nextConfig = {
       ]
     }
   },
-  assetPrefix:  "/next_sp" 
+  assetPrefix: isProduction ? "/next_sp" : "",
  
 };
 
