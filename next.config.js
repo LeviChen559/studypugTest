@@ -22,20 +22,7 @@ const nextConfig = {
       },
     ],
   },
-  // exportPathMap: async function (
-  //     defaultPathMap,
-  //     { dev, dir, outDir, distDir, buildId }
-  //   ) {
-  //     const paths = {  }
-  //     for (const locale of ["ca", "us"]) {
-  //       paths[`/parents/${locale}`] = { page: "/parents/[locale]", query: { __nextLocale: locale } };
-  //     }
-  //     // paths["/parents/ca"] = { page: "/parents/ca" };
-  //     // paths["/parents/us"] = { page: "/parents/us" };
-  //     return paths;
-  //       // ...defaultPathMap,
 
-  //   },
 
   webpack: (
     config,
@@ -67,7 +54,7 @@ const nextConfig = {
       ]
     }
   },
-  assetPrefix:  "/next_sp" 
+  assetPrefix: isProduction? "/next_sp" :""
  
 };
 
