@@ -236,13 +236,13 @@ const Payment: FC<Props> = ({studentPriceData, parentPriceData, locale}) => {
 
 export default Payment;
 
-// export const getStaticPaths = () => ({
-//     fallback: false,
-//     paths: getI18nPaths(),
-// });
+export const getStaticPaths = () => ({
+    fallback: false,
+    paths: getI18nPaths(),
+});
 
 //use getStaticProps to get the data from the json file depending on the locale
-export const getServerSideProps = async (context: any, req: any) => {
+export const getStaticProps = async (context: any, req: any) => {
     const {locale} = context.params;
     const response = await fetch(`${process.env.NEXT_PUBLIC_SP__PRICE_API}${locale}`);
     const priceData = await response.json();
