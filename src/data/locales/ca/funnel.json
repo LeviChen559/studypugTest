@@ -1,0 +1,122 @@
+{
+    "parent": {
+        "signup": {
+            "head": {
+                "title": "StudyPug: #1 Help and Practice for Math, Calculus and Stats – StudyPug",
+                "description": "Improve your child's performance in math and science with lessons from experienced teachers. Engage kids with 1000's of fun practice and a personalized plan."
+            },
+            "content": {
+                "title": "Sign Up for Your Free Account",
+                "subtitle": "Help your child succeed in math and science today",
+                "testimonial": {
+                    "opinion": "I get a whole library of videos that covers everything from basic to complex mathematics for a very low monthly price. Excellent videos, easy-to-understand and most of all they work. My math test results are 10 points higher than last semester.",
+                    "nameAndLocation": "Aaron M., High School Student"
+                },
+                "trust": {
+                    "title": "StudyPug is trusted by",
+                    "subtitle": [
+                        "Credentials/institutions",
+                        "Credentials/institutions",
+                        "Credentials/institutions"
+                    ]
+                }
+            }
+        },
+        "payment": {
+            "head": {
+                "title": "StudyPug: #1 Help and Practice for Math, Calculus and Stats – StudyPug",
+                "description": "Improve your child's performance in math and science with lessons from experienced teachers. Engage kids with 1000's of fun practice and a personalized plan."
+            },
+            "content": {
+                "title": "Choose a Plan",
+                "subtitle": "Save more with 6-months and annual plans",
+                "testimonial": {
+                    "id": 0,
+                    "opinion": "You offer excellent math help for a very affordable price.",
+                    "name": "Vera Volkov",
+                    "occupation": "Parent, Vaughan Secondary, Toronto, ON",
+                    "img": "https://www.studypug.com/wp-content/uploads/ca_9_p1.jpg"
+                },
+                "creditCard": {
+                    "title": "Payment Information",
+                    "notice": [
+                        {
+                            "text1": "7 day risk-free trial.",
+                            "text2": " There are no obligations. You can cancel any time!"
+                        },
+                        {
+                            "text1": "30 day satisfaction guarantee:",
+                            "text2": " If you're not satisfied within 30 days, we'll gladly provide a full refund!"
+                        }
+                    ]
+                },
+                "summary": {
+                    "skip1": "Not sure yet? ",
+                    "skip2": " Explore all our content",
+                    "skipLink": "https://www.studypug.com/ca/"
+                },
+                "paymentMethod": "Secure payment via Stripe"
+            }
+        }
+    },
+    "student": {
+        "signup": {
+            "head": {
+                "title": "StudyPug: #1 Help and Practice for Math, Calculus and Stats – StudyPug",
+                "description": "Improve your child's performance in math and science with lessons from experienced teachers. Engage kids with 1000's of fun practice and a personalized plan."
+            },
+            "content": {
+                "title": "Start Your Free 7-day Trial",
+                "subtitle": "Start doing better in math in less than 60 seconds",
+                "testimonial": {
+                    "opinion": "You are the best math help website I have ever used. I can find the topics I'm learning on your site easily. Your videos are so helpful too.",
+                    "nameAndLocation": "Beth, High School Junior"
+                },
+                "trust": {
+                    "title": "StudyPug is trusted by",
+                    "subtitle": [
+                        "Credentials/institutions",
+                        "Credentials/institutions",
+                        "Credentials/institutions"
+                    ]
+                }
+            }
+        },
+        "payment": {
+            "head": {
+                "title": "StudyPug: #1 Help and Practice for Math, Calculus and Stats – StudyPug",
+                "description": "Improve your child's performance in math and science with lessons from experienced teachers. Engage kids with 1000's of fun practice and a personalized plan."
+            },
+            "content": {
+                "title": "Choose a Plan",
+                "subtitle": "Start doing better in math in less than 60 seconds",
+                "testimonial": {
+                    "id": 0,
+                    "opinion": "I like that I can watch a StudyPug video any time and over and over. It's like having a dedicated teacher working with me until I understand the concept.",
+                    "name": "T.T.",
+                    "occupation": "high school student",
+                    "img": "https://www.studypug.com/wp-content/uploads/ca_9_p1.jpg"
+                },
+                "creditCard": {
+                    "title": "Payment Information",
+                    "notice": [
+                        {
+                            "text1": "7 day risk-free trial.",
+                            "text2": " There are no obligations. You can cancel any time!"
+                        },
+                        {
+                            "text1": "30 day satisfaction guarantee:",
+                            "text2": " If you're not satisfied within 30 days, we'll gladly provide a full refund!"
+                        }
+                    ]
+                },
+                "summary": {
+                    "skip1": "Not sure yet? ",
+                    "skip2": " Explore all our content",
+                    "skipLink": "https://www.studypug.com/ca/"
+                },
+                "paymentMethod": "Secure payment via Stripe"
+            }
+        }
+    }
+}

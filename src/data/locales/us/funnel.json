@@ -1,0 +1,54 @@
+{
+    "signup": {
+        "head": {
+            "title": "StudyPug: #1 Help and Practice for Math, Calculus and Stats – StudyPug",
+            "description": "Improve your child's performance in math and science with lessons from experienced teachers. Engage kids with 1000's of fun practice and a personalized plan."
+        },
+        "content": {
+            "title": "Create an account",
+            "description": "150,000 parents are using StudyPug to help their children",
+            "testimonial": {
+                "opinion": "Either a testimony about the low cost, or one that talks about engaging math help or practice modules. First Last -",
+                "nameAndLocation": "person’s role, Location"
+            },
+            "trust": {
+                "title": "StudyPug is trusted by",
+                "subtitle": [
+                    "Credentials/institutions",
+                    "Credentials/institutions",
+                    "Credentials/institutions"
+                ]
+            }
+        }
+    },
+    "payment": {
+        "head": {
+            "title": "StudyPug: #1 Help and Practice for Math, Calculus and Stats – StudyPug",
+            "description": "Improve your child's performance in math and science with lessons from experienced teachers. Engage kids with 1000's of fun practice and a personalized plan."
+        },
+        "content": {
+            "title": "Create an account",
+            "subtitle": "You get one price for up to 5 children, and you can save more with our 6-month and yearly plans.",
+            "creditCard":{
+                "title":"Payment Information",
+                "notice": [
+                    {
+                        "text1": "7 day risk-free trial.",
+                        "text2": " There are no obligations. You can cancel at any time!"
+                    },
+                    {
+                        "text1": "30 day satisfaction guarantee:",
+                        "text2": " If you're not satisfied within 30 days, we'll gladly provide a full refund!"
+                    }
+                ]
+            },
+            "summary":{
+                "skip1":"Not sure yet? ",
+                "skip2":" Explore all our content",
+                "skipLink":"https://www.studypug.com/ca/"
+
+            },
+            "paymentMethod":"Secure payment via Stripe"
+        }
+    }
+}
