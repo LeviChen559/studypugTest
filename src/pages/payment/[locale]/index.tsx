@@ -248,7 +248,7 @@ export const getStaticProps = async (context: any, req: any) => {
     const priceData = await response.json();
     const parentPriceData = Object.values(priceData.parent.plans);
     const studentPriceData = Object.values(priceData.student.plans);
-    const session = await getSession(context);
+    // const session = await getSession(context);
 
     return {
         props: {
@@ -260,7 +260,6 @@ export const getStaticProps = async (context: any, req: any) => {
             headers: {
                 "Cache-Control": "public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400",
             },
-            session,
         },
     };
 };
