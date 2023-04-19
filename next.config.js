@@ -67,7 +67,7 @@ const nextConfig = {
       ]
     }
   },
-  assetPrefix: isProduction ? "/next_sp" : "",
+  assetPrefix:  "/next_sp" ,
  
 };
 
