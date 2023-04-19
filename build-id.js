@@ -1,1 +1,1 @@
-module.exports = 'nPwQSd6w9yiPXqKmAAuUq';
+module.exports = 'development';

@@ -7,7 +7,6 @@
     "build": "next build ",
     "start": "next start",
     "lint": "next lint",
-    "set-locales": "node setLocales.js",
     "export": "next build && next export "
   },
   "dependencies": {
