@@ -5,7 +5,7 @@ const isProduction = process.env.NODE_ENV === "production";
 const nextConfig = {
   // output: "standalone",
   // basePath:"/next_sp",
-  // distDir: 'build',
+  distDir: 'build',
   trailingSlash: true,
   reactStrictMode: true,
   images: {
